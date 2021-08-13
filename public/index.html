@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./icons/ai.png" />
+
+  <!-- Put your site title here -->
+  <title>
+    Elango Raj | Data science | Machine Learning
+  </title>
+
+  <meta name="description" content="London, UK">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+
+  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <link rel="stylesheet" href="index.css" />
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.9.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+	 https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+  <canvas id="particles"></canvas>
+  <header role="banner" id="top">
+    <div class="header__text-box row">
+      <div class="row header__menu">
+        <nav class="nav" role="navigation">
+          <ul class="nav__items">
+            <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+            <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Elango Raj</span>
+        </h1>
+        <p class="heading-desc">Data science | Machine Learning</p>
+        <p class="heading-desc">Master's in Data science with Artificial Intelligence, University of Exeter, UK.</p>
+        <p>
+          <q>If you are not doing what you love then you are wasting time</q>
+          - <i>Billy Joel</i>
+        </p>
+          
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Work</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Image Super-Resolution</h3>
+              <p>
+                Advanced Computer Vision techniques that can enhance image quality of remote sensing images from sources such as satellites, drones, and aircraft.
+              </p>
+              <ul class="work__list">
+                <li>Python <i>(PyTorch, scikit-image, Pillow, OpenCV)</i></li>
+                <li>R <i>(dplyr, ggplot2, aov, TukeyHSD)</i></li>
+                <li>AWS</li>
+                <li>Excel</li>
+              </ul>
+
+              <div class="work__links">
+                <a  href="https://github.com/Elangoraj/Image-Super-Resolution"  class="link__text" target="_blank" rel="noopener noreferrer">
+                  Read More <span>&rarr;</span>
+                </a>
+                <a  href="https://github.com/Elangoraj/Image-Super-Resolution" title="View Source Code" target="_blank" rel="noopener noreferrer">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/SR1.jpg" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Product recommendations</h3>
+              <p> 
+                A Deep Neural Network model  which can predict right product to move to the right outlet at the right time. 
+              </p>
+              <ul class="work__list">
+                <li>Python </li>
+                <li>AWS (Redshift, EMR, S3) </li>
+                <li>R</li>
+                <li>Spark SQL </li>
+                <li>Statistics </li>
+              </ul>
+
+             
+            </div>
+            <div class="work__image-box">
+              <img src="./images/recommendation-engine.jpg" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Satellite Image Scene Classification</h3>
+              <p>
+                Classify multiple image scenes within satellite images using Convolution Neural Network. 
+              </p>
+              <ul class="work__list">
+                <li>Python <i>(PIL, PyTorch, Tensorflow)</i></li>
+                <li>Docker</li>
+                <li>CNN</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/Elangoraj/LandCover-Image-Classification" class="link__text" target="_blank" rel="noopener noreferrer">
+                  Read More <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/Elangoraj/LandCover-Image-Classification" target="_blank" rel="noopener noreferrer">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/sateliteImage.jpg" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+         <!-- <div class="work__box">
+            <div class="work__text">
+              <h3>Notificator</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
+                eius.
+              </p>
+              <ul class="work__list">
+                <li>React</li>
+                <li>Next.js</li>
+                <li>Node</li>
+                <li>MongoDB</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-3.png" class="work__image" alt="Project 3" />
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Clients ***** -->
+
+    <section class="client" id="skills">
+      <div class="row">
+        <h2>Skills</h2>
+        <div class="client__logos">
+          <!-- Add logos of the clients or companies you'have worked with. -->
+          <div class="client__logo-container">
+            <img src="icons/python.png" class="client__logo" alt="Python" />
+            <b class="client__logo-text">Python</b>
+          </div>
+          <div class="client__logo-container">
+            <img src="icons/r.png" class="client__logo" alt="R" />
+            <b class="client__logo-text">R</b>
+          </div>
+          <div class="client__logo-container">
+            <img src="icons/sql-server.svg" class="client__logo" alt="SQL" /> 
+            <b class="client__logo-text">SQL</b>
+          </div>
+          <div class="client__logo-container">
+            <img src="icons/aws.svg" class="client__logo" alt="Amazon Web Service" />
+            <b class="client__logo-text">Amazon Web Service</b>
+          </div>
+          <div class="client__logo-container">
+            <img src="icons/GCP.svg" class="client__logo" alt="Google Cloud Platform" />
+            <b class="client__logo-text">Google Cloud Platform</b>
+          </div>
+          <div class="client__logo-container">
+            <img src="icons/neural.svg" class="client__logo" alt="Neural" />
+            <b class="client__logo-text">Neural Network</b>
+          </div>
+          <div class="client__logo-container">
+            <img src="icons/power-bi.svg" class="client__logo" alt="Power Bi" />
+            <b class="client__logo-text">Power-Bi</b>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="client" id="awards">
+      <div class="row">
+        <h2>Awards</h2>
+        <div class="client__logos">
+          <!-- Add logos of the clients or companies you'have worked with. -->
+          <div class="client__logo-container">
+            <img src="icons/Pillar.png" class="client__logo" alt="Pillar" />
+            <b class="client__logo-text">Mindtree Pillar</b>
+          </div>
+          <div class="client__logo-container">
+            <img src="icons/oc.png" class="client__logo" alt="Outstanding Contributor" />
+            <b class="client__logo-text">Outstanding Contributor</b>
+          </div>
+          <div class="client__logo-container">
+            <img src="icons/A-team.png" class="client__logo" alt="A-Team" /> 
+            <b class="client__logo-text">A-Team</b>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              A fresh mind with energetic, confident with IT industry experience of almost 5 years in the field of data science. 
+              Currently pursuing a master's degree to specialize in Artificial intelligence with an understanding of mathematical concepts, programming skills, deep learning skills (computer vision, natural language processing), 
+              ability to process, analyze, and visualize data.
+              University research work focusing on super-resolution (2x and 4x images) of remote sensing images differing in Scenes(Agriculture, Buildings, Water, etc), time(Day, Night), and weather(Clear, Snow) using SRCNN architecture.
+              Having Data science work experience in developing product recommendations for customers in Deep Neural Network. Experience in Semantic search, LSTM models for Sentiment analysis, and Time series analysis. Also as an SQL developer and worked on tasks like Data Cleaning, Data Modelling, and reports generation using tools like MySQL, Redshift, Pentaho, AWS (RDS, S3, EMR), and PowerBI. Conducted multiple training and mentoring sessions on Statistics, Analytics, Python for Machine Learning. Completed various training and certification on Analytics, Deep Learning and also completed Deep Learning Nanodegree.
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="docs/Elangoraj.pdf" class="btn" download>My Resume</a>
+
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="images/profile.JPG" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          Looking for an full time Data Science role.
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:elangorj@gmail.com" class="btn">Connect with me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a  href="https://github.com/Elangoraj" title="Link to Github Profile" target="_blank" rel="noopener noreferrer">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <!-- <li class="footer__social-link-item">
+          <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
+            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
+          </a>
+        </li> -->
+        <li class="footer__social-link-item">
+          <a href="https://linkedin.com/in/ElangoRaj" target="_blank" rel="noopener noreferrer">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a  href="https://twitter.com/ElangoRj/" title="Link to Twitter Profile" target="_blank" rel="noopener noreferrer">
+            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
+          </a>
+        </li>
+      </ul>
+
+      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+      <p>
+        Thanks for Visiting.
+      </p>
+     <!--  <div class="footer__github-buttons">
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
+          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+        </iframe>
+      </div> -->
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="js/index.js"></script>
+  <script src="js/particle.js"></script>
+</body>
+
+</html>
