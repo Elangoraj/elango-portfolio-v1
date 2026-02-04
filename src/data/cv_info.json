@@ -1,0 +1,146 @@
+{
+    "personalInfo": {
+        "name": "Elangoraj Thiruppandiaraj",
+        "title": "AI/ ML Leader | Document AI & GenAI | MSc Artificial Intelligence",
+        "location": "London, UK",
+        "email": "elangorj@gmail.com",
+        "phone": "+44 7586073892",
+        "social": {
+            "linkedin": "LinkedIn",
+            "github": "Github",
+            "medium": "Medium"
+        }
+    },
+    "summary": "AI Leader with 10 years of experience delivering production-grade ML and Generative AI solutions in highly regulated environments (financial services and enterprise risk domains). Deep experience in Document AI, including OCR, intelligent document processing, semantic retrieval, and LLM-based reasoning over structured and unstructured enterprise documents. Strong background in model development, evaluation, and validation, with hands-on experience across LLMs, semantic search, NLP, and computer vision. Ability to translate complex AI outputs into defensible, explainable insights for senior stakeholders, governance teams, and non-technical audiences.",
+    "skills": {
+        "Generative AI & ML": [
+            "LLM Integration",
+            "Retrieval-Augmented Generation (RAG)",
+            "Semantic Search",
+            "Fine-Tuning (PEFT, LoRA)",
+            "LangChain",
+            "LLMOps",
+            "Prompt Engineering",
+            "Embeddings",
+            "Vector Databases",
+            "NLP Pipelines",
+            "Multi-Agent Applications"
+        ],
+        "ML & Data Science": [
+            "Supervised / Unsupervised Learning",
+            "NLP",
+            "OCR",
+            "Intelligent Document Processing",
+            "Computer Vision",
+            "Time-Series",
+            "Model Evaluation & Validation",
+            "A/B Testing",
+            "TensorFlow",
+            "PyTorch"
+        ],
+        "AI Solution Engineering": [
+            "Enterprise GenAI Solutions",
+            "Secure AI Architectures",
+            "AI Platform Design",
+            "Model Deployment & Monitoring",
+            "Cost Optimisation",
+            "Scalability & Performance"
+        ],
+        "Data & AI Delivery": [
+            "Databricks Lakehouse Platform",
+            "Delta Lake",
+            "Apache Spark (Python / PySpark)",
+            "MLflow",
+            "Feature Stores",
+            "Data Pipeline Design (ETL / ELT)",
+            "CI/CD Pipelines"
+        ],
+        "Cloud Ecosystem": [
+            "Azure (Azure Databricks, Azure ML, AI Foundry, Copilot Studio)",
+            "AWS (S3, EMR, SageMaker, Redshift)",
+            "GCP (Vertex AI, BigQuery, Document AI, Looker)"
+        ],
+        "Programming & Tools": [
+            "Python",
+            "PySpark",
+            "SQL",
+            "Docker",
+            "GitHub",
+            "Snowflake",
+            "Power BI",
+            "Streamlit"
+        ]
+    },
+    "experience": [
+        {
+            "role": "Data Scientist (Lead Applied AI Delivery)",
+            "company": "Just Group Plc",
+            "location": "London, UK",
+            "period": "July 2024 - Present",
+            "achievements": [
+                "Led applied AI initiatives in regulated financial services, delivering production-grade AI and Generative AI solutions aligned with governance, security, and business outcomes.",
+                "Designed and delivered enterprise GenAI capabilities across document intelligence, semantic search, and automated decision support, enabling teams to interact with complex information more efficiently.",
+                "Built a secure Retrieval-Augmented Generation (RAG) solution using local Hugging Face models, combining OCR, embeddings, and private vector search to extract, retrieve, and reason over sensitive unstructured data in a privacy-preserving manner.",
+                "Developed a unified AI-powered text generation platform that enables multiple stakeholders to engage through a single interface, supporting diverse use cases and tones of voice, saving 100+ hours annually and reducing effort by approximately 85%.",
+                "Led the AI4U internal AI enablement initiative and ongoing AI learning sessions, supporting responsible AI adoption through knowledge sharing, internal consulting, and practical guidance."
+            ]
+        },
+        {
+            "role": "Product Manager",
+            "company": "Mercer",
+            "location": "London, UK",
+            "period": "Dec 2021 - June 2024",
+            "achievements": [
+                "Led the delivery of AI-powered products at enterprise scale, working at the intersection of data science, product strategy, and stakeholder engagement.",
+                "Designed and scaled a multilingual transformer-based semantic matching capability for skills and job normalisation, significantly improving matching quality while reducing reliance on third-party services.",
+                "Established MLOps practices using MLflow to support reliable model experimentation, versioning, and deployment across AI products."
+            ]
+        },
+        {
+            "role": "Research Intern (AI)",
+            "company": "Intelligent AI",
+            "location": "Exeter, UK",
+            "period": "April – May 2021",
+            "achievements": [
+                "Developed a computer vision model to classify satellite imagery into multiple land-use categories, applying deep learning techniques and production-oriented tooling to support scalable image analysis."
+            ]
+        },
+        {
+            "role": "Module Lead",
+            "company": "LTI Mindtree",
+            "location": "Chennai, India",
+            "period": "Jan 2016 - Oct 2021",
+            "achievements": [
+                "Led the delivery of a deep learning–based product recommendation solution for a global FMCG client, enabling more effective product distribution and improved on-shelf availability.",
+                "Owned the end-to-end data lifecycle, from data ingestion and transformation to analytics-ready datasets and business reporting.",
+                "Recognised for consistent technical excellence and leadership through multiple performance awards."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "degree": "MSc Data Science with Artificial Intelligence",
+            "institution": "University of Exeter, UK",
+            "year": "2020-2021",
+            "details": "Distinction"
+        },
+        {
+            "degree": "Bachelors in Electronics and Communication",
+            "institution": "St. Joseph’s College of Engineering, India",
+            "year": "2011-2015"
+        }
+    ],
+    "certifications": [
+        "Google Project Management",
+        "Technical Team Leadership (University of Oxford)",
+        "Generative AI with Large Language Model",
+        "Deep Learning Nanodegree"
+    ],
+    "publications": [
+        "Remote Sensing Single Image Super-Resolution Benchmarking with Transfer Learning Algorithms, 2023, Publisher: IEEE"
+    ],
+    "leadership": [
+        "Vice President Education, Toastmasters International (City of London) – Future Forward Award winner",
+        "AI Mentor & Career Coach"
+    ]
+}
