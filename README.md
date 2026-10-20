@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Elangoraj Thiruppandiaraj — Portfolio
 
-## Getting Started
+Personal portfolio site, built with Next.js (App Router), Tailwind CSS and Framer Motion, and hosted on Firebase Hosting at https://elangoraj.web.app.
 
-First, run the development server:
+## Editing content
+
+Almost all content lives in [`src/data/cv_info.json`](src/data/cv_info.json): summary, highlights, skills, experience, projects, talks, leadership, education, certifications, publications, awards, testimonials and social links. Edit that file and rebuild; no component changes are needed.
+
+Page layout is in [`src/app/page.tsx`](src/app/page.tsx). SEO and social-share metadata are in [`src/app/layout.tsx`](src/app/layout.tsx).
+
+Web-sized images used by the site are in `public/images/web/`. The resume download is `public/docs/Elangoraj.pdf`.
+
+## Local development
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm ci
+npm run dev      # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deploy to Firebase
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The site is exported as static files to `out/`, which `firebase.json` serves.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build    # writes the static site to out/
+firebase deploy  # deploys out/ to the "elangoraj" Firebase project
+```
 
-## Learn More
+If login fails, run `firebase logout`, then `firebase login`.
 
-To learn more about Next.js, take a look at the following resources:
+## Legacy site
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The original static HTML site is kept unchanged in `_legacy_site/` (with its own `firebase.json`). To redeploy it instead, run `firebase deploy` from inside that folder.

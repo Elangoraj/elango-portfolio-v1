@@ -1,119 +1,140 @@
 {
     "personalInfo": {
         "name": "Elangoraj Thiruppandiaraj",
-        "title": "AI/ ML Leader | Document AI & GenAI | MSc Artificial Intelligence",
+        "title": "AI Lead & Data Scientist | Multi-Agent Systems & GenAI | Document AI & RAG | Public Speaker & Mentor",
         "location": "London, UK",
         "email": "elangorj@gmail.com",
         "phone": "+44 7586073892",
         "social": {
-            "linkedin": "LinkedIn",
-            "github": "Github",
-            "medium": "Medium"
+            "linkedin": "https://www.linkedin.com/in/elangoraj",
+            "github": "https://github.com/Elangoraj",
+            "medium": "https://medium.com/@elangorj",
+            "fiverr": "https://www.fiverr.com/elangoraj",
+            "twitter": "https://twitter.com/ElangoRj"
         }
     },
-    "summary": "AI Leader with 10 years of experience delivering production-grade ML and Generative AI solutions in highly regulated environments (financial services and enterprise risk domains). Deep experience in Document AI, including OCR, intelligent document processing, semantic retrieval, and LLM-based reasoning over structured and unstructured enterprise documents. Strong background in model development, evaluation, and validation, with hands-on experience across LLMs, semantic search, NLP, and computer vision. Ability to translate complex AI outputs into defensible, explainable insights for senior stakeholders, governance teams, and non-technical audiences.",
+    "summary": "AI Lead and Data Scientist with 10 years of experience designing, prototyping and scaling AI, ML and Generative AI solutions across insurance, financial services, HR technology and enterprise environments. I help organisations turn complex data challenges into scalable, ethical and impactful AI, working across the full lifecycle: problem discovery and solution design through to deployment, MLOps and long-term adoption. My hands-on work spans RAG, agentic and multi-agent workflows, document understanding, vector search and model evaluation, and I partner closely with underwriting, risk, compliance, product and technology teams to move AI beyond experimentation into governed, production-ready systems.",
     "skills": {
-        "Generative AI & ML": [
-            "LLM Integration",
+        "GenAI & AI Applications": [
             "Retrieval-Augmented Generation (RAG)",
-            "Semantic Search",
+            "Agentic Workflows",
+            "Multi-Agent Systems",
+            "Tool-Augmented Agents",
+            "Prompt Engineering",
+            "Document Understanding",
+            "Structured Output Generation",
+            "LLM Evaluation",
             "Fine-Tuning (PEFT, LoRA)",
             "LangChain",
-            "LLMOps",
-            "Prompt Engineering",
-            "Embeddings",
-            "Vector Databases",
-            "NLP Pipelines",
-            "Multi-Agent Applications"
+            "CrewAI"
         ],
-        "ML & Data Science": [
-            "Supervised / Unsupervised Learning",
+        "Data Science & ML": [
+            "Predictive Modelling",
             "NLP",
             "OCR",
-            "Intelligent Document Processing",
-            "Computer Vision",
-            "Time-Series",
-            "Model Evaluation & Validation",
+            "Recommendation Systems",
+            "Anomaly Detection",
+            "Time Series",
+            "Supervised / Unsupervised Learning",
+            "Model Evaluation",
             "A/B Testing",
-            "TensorFlow",
-            "PyTorch"
+            "Statistical Analysis",
+            "PyTorch",
+            "TensorFlow"
         ],
-        "AI Solution Engineering": [
-            "Enterprise GenAI Solutions",
-            "Secure AI Architectures",
-            "AI Platform Design",
-            "Model Deployment & Monitoring",
-            "Cost Optimisation",
-            "Scalability & Performance"
-        ],
-        "Data & AI Delivery": [
-            "Databricks Lakehouse Platform",
-            "Delta Lake",
-            "Apache Spark (Python / PySpark)",
-            "MLflow",
-            "Feature Stores",
-            "Data Pipeline Design (ETL / ELT)",
-            "CI/CD Pipelines"
-        ],
-        "Cloud Ecosystem": [
-            "Azure (Azure Databricks, Azure ML, AI Foundry, Copilot Studio)",
-            "AWS (S3, EMR, SageMaker, Redshift)",
-            "GCP (Vertex AI, BigQuery, Document AI, Looker)"
-        ],
-        "Programming & Tools": [
+        "AI Engineering & MLOps": [
             "Python",
-            "PySpark",
             "SQL",
+            "Apache Spark / PySpark",
+            "MLflow",
             "Docker",
             "GitHub",
-            "Snowflake",
-            "Power BI",
-            "Streamlit"
+            "CI/CD",
+            "Model Deployment & Monitoring",
+            "Vector Databases",
+            "Embeddings",
+            "Streamlit",
+            "Databricks"
+        ],
+        "Cloud Platforms": [
+            "Azure (ML, AI Foundry, Databricks, App Services, DevOps)",
+            "GCP (Vertex AI, BigQuery)",
+            "AWS (S3, EMR, SageMaker, Redshift)"
+        ],
+        "Insurance & Risk Domain": [
+            "Insurance & Underwriting",
+            "Risk Assessment",
+            "Financial Services",
+            "Compliance",
+            "Data Governance",
+            "Responsible AI",
+            "Privacy-by-Design"
+        ],
+        "Consulting & Leadership": [
+            "Technical Discovery",
+            "AI Roadmaps",
+            "AI Capability Reviews",
+            "Stakeholder Advisory",
+            "Workstream Ownership",
+            "Mentoring",
+            "Executive Communication"
         ]
     },
     "experience": [
         {
-            "role": "Data Scientist (Lead Applied AI Delivery)",
-            "company": "Just Group Plc",
+            "role": "Data Scientist (AI Solution Lead)",
+            "company": "Just Group plc",
             "location": "London, UK",
-            "period": "July 2024 - Present",
+            "period": "Jul 2024 - Present",
             "achievements": [
-                "Led applied AI initiatives in regulated financial services, delivering production-grade AI and Generative AI solutions aligned with governance, security, and business outcomes.",
-                "Designed and delivered enterprise GenAI capabilities across document intelligence, semantic search, and automated decision support, enabling teams to interact with complex information more efficiently.",
-                "Built a secure Retrieval-Augmented Generation (RAG) solution using local Hugging Face models, combining OCR, embeddings, and private vector search to extract, retrieve, and reason over sensitive unstructured data in a privacy-preserving manner.",
-                "Developed a unified AI-powered text generation platform that enables multiple stakeholders to engage through a single interface, supporting diverse use cases and tones of voice, saving 100+ hours annually and reducing effort by approximately 85%.",
-                "Led the AI4U internal AI enablement initiative and ongoing AI learning sessions, supporting responsible AI adoption through knowledge sharing, internal consulting, and practical guidance."
+                "Lead the design, prototyping and delivery of applied AI and GenAI solutions across underwriting, actuarial, risk and finance, and manage and mentor a team of 3 AI/ML engineers through architecture reviews, evaluation standards and delivery oversight.",
+                "Document Intelligence & RAG platform: designed and deployed a secure, multimodal document understanding system for medical underwriters, combining OCR over scanned images and handwritten notes, vector embeddings, similarity search and re-ranking to retrieve high-confidence answers.",
+                "Agentic AI platform: architected a multi-agent GenAI system that orchestrates multiple GPT-family models to turn transcripts, PDFs and structured inputs into template-based reports, achieving 85%+ output consistency and saving hundreds of hours of manual effort each month.",
+                "Developed a novel anomaly detection approach using LLM embeddings and similarity search to surface subtle irregularities in quote and underwriting data that rule-based checks miss.",
+                "Present AI architecture, roadmap progress and ROI to the Group Executive Committee, and champion explainable, responsible AI by supporting DPIA reviews and regulatory alignment.",
+                "Founded and lead AI4U and AI Centre of Excellence activities, reaching 200+ active participants and over 40% of the organisation, including executive leadership."
             ]
         },
         {
-            "role": "Product Manager",
+            "role": "Freelance AI Consultant & Mentor",
+            "company": "Fiverr",
+            "location": "Remote",
+            "period": "Jun 2022 - Present",
+            "achievements": [
+                "Provide consulting, mentoring and career development for global clients on applied machine learning, generative AI and LLMs, portfolio reviews and interview preparation, with a 4.6★ average rating."
+            ]
+        },
+        {
+            "role": "Data Product Manager",
             "company": "Mercer",
             "location": "London, UK",
-            "period": "Dec 2021 - June 2024",
+            "period": "Dec 2021 - Jun 2024",
             "achievements": [
-                "Led the delivery of AI-powered products at enterprise scale, working at the intersection of data science, product strategy, and stakeholder engagement.",
-                "Designed and scaled a multilingual transformer-based semantic matching capability for skills and job normalisation, significantly improving matching quality while reducing reliance on third-party services.",
-                "Established MLOps practices using MLflow to support reliable model experimentation, versioning, and deployment across AI products."
+                "Owned the roadmap and end-to-end delivery of an AI-driven skills intelligence product, leading discovery with business stakeholders and mentoring a cross-functional team of two AI/data engineers.",
+                "Designed a multilingual transformer-based semantic matching system using Hugging Face embeddings, improving matching accuracy by 73% and reducing operational costs by 33%.",
+                "Optimised transformer models with Parameter-Efficient Fine-Tuning (PEFT), achieving a 15% improvement over base models.",
+                "Established MLOps practices for model tracking, versioning and reproducibility with MLflow, and explored RAG and LangChain to improve contextual intelligence across products."
             ]
         },
         {
             "role": "Research Intern (AI)",
             "company": "Intelligent AI",
             "location": "Exeter, UK",
-            "period": "April – May 2021",
+            "period": "Apr - May 2021",
             "achievements": [
-                "Developed a computer vision model to classify satellite imagery into multiple land-use categories, applying deep learning techniques and production-oriented tooling to support scalable image analysis."
+                "Developed a satellite image scene-classification model detecting ten land-use categories (e.g. rivers, residences, forests) using Python, PyTorch/TensorFlow and Docker."
             ]
         },
         {
-            "role": "Module Lead",
-            "company": "LTI Mindtree",
-            "location": "Chennai, India",
-            "period": "Jan 2016 - Oct 2021",
+            "role": "Module Lead · Senior Engineer · Engineer",
+            "company": "LTIMindtree",
+            "location": "Chennai & Bengaluru, India",
+            "period": "Jan 2016 - Nov 2021",
             "achievements": [
-                "Led the delivery of a deep learning–based product recommendation solution for a global FMCG client, enabling more effective product distribution and improved on-shelf availability.",
-                "Owned the end-to-end data lifecycle, from data ingestion and transformation to analytics-ready datasets and business reporting.",
-                "Recognised for consistent technical excellence and leadership through multiple performance awards."
+                "Led development of a deep neural network recommendation engine for a global FMCG client using Apache Spark and Python, improving product placement accuracy to 80% and optimising SKU distribution across retail outlets.",
+                "Built data engineering pipelines with SQL, Python and Spark on AWS (S3, EMR, Redshift), and Power BI dashboards that turned complex data into actionable recommendations for supply chain and sales teams.",
+                "Delivered internal training on statistics, machine learning and data science as part of the Data Science Centre of Excellence, and worked onsite with the client for over a year.",
+                "Recognised as a Pillar of Mindtree (top 5% of employees) and with the A-Team award for deploying the first AI-framework-based solution at scale for the client."
             ]
         }
     ],
@@ -121,26 +142,210 @@
         {
             "degree": "MSc Data Science with Artificial Intelligence",
             "institution": "University of Exeter, UK",
-            "year": "2020-2021",
+            "year": "2020 - 2021",
             "details": "Distinction"
+        },
+        {
+            "degree": "Technical Team Leadership",
+            "institution": "University of Oxford, UK",
+            "year": "2023",
+            "details": ""
         },
         {
             "degree": "Bachelors in Electronics and Communication",
             "institution": "St. Joseph’s College of Engineering, India",
-            "year": "2011-2015"
+            "year": "2011 - 2015",
+            "details": ""
         }
     ],
     "certifications": [
-        "Google Project Management",
-        "Technical Team Leadership (University of Oxford)",
-        "Generative AI with Large Language Model",
+        "Google Project Management Professional Certificate (2025)",
+        "Practical Multi AI Agents and Advanced Use Cases with crewAI, DeepLearning.AI (2025)",
+        "Generative AI with Large Language Models",
         "Deep Learning Nanodegree"
     ],
     "publications": [
-        "Remote Sensing Single Image Super-Resolution Benchmarking with Transfer Learning Algorithms, 2023, Publisher: IEEE"
+        {
+            "title": "Remote Sensing Single Image Super-Resolution Benchmarking with Transfer Learning Algorithms",
+            "venue": "IEEE, 2024 · co-authored with Dr Saptarshi Das",
+            "link": ""
+        },
+        {
+            "title": "AI Innovation, Strategy & Technical Leadership",
+            "venue": "Medium author · articles including Semantic Search Using Language Model Demo",
+            "link": "https://medium.com/@elangorj"
+        }
     ],
     "leadership": [
-        "Vice President Education, Toastmasters International (City of London) – Future Forward Award winner",
-        "AI Mentor & Career Coach"
+        {
+            "role": "VP Membership",
+            "org": "City of London Toastmasters",
+            "period": "Jul 2026 - Present",
+            "description": "Driving membership growth and retention through outreach campaigns, a smooth onboarding experience and proactive follow-up with at-risk members."
+        },
+        {
+            "role": "VP Education",
+            "org": "City of London Toastmasters",
+            "period": "Jul 2025 - Jun 2026",
+            "description": "Organised educational sessions and workshops that increased participation and speech completions. Awarded the Future Forward Award."
+        },
+        {
+            "role": "AI Stream Curator",
+            "org": "Toastmasters Conference 2026",
+            "period": "2026",
+            "description": "Designed and curated the AI content track, selecting speakers and shaping the narrative on communication in the age of AI."
+        }
+    ],
+    "projects": [
+        {
+            "title": "Document Intelligence & RAG Platform",
+            "description": "Secure, multimodal document understanding for medical underwriters: OCR over scans and handwriting, semantic indexing, similarity search and re-ranking over complex medical and financial reports.",
+            "tags": [
+                "RAG",
+                "OCR",
+                "Embeddings",
+                "Azure"
+            ],
+            "link": "",
+            "linkLabel": "",
+            "context": "Just Group · internal platform",
+            "image": ""
+        },
+        {
+            "title": "Agentic Report Generation",
+            "description": "Multi-agent GenAI system orchestrating GPT-family models asynchronously to produce structured outputs and populate template-based documents from transcripts and PDFs.",
+            "tags": [
+                "Multi-Agent",
+                "LLMs",
+                "Azure App Services",
+                "CI/CD"
+            ],
+            "link": "",
+            "linkLabel": "",
+            "context": "Just Group · internal platform",
+            "image": ""
+        },
+        {
+            "title": "LLM Embeddings for Anomaly Detection",
+            "description": "A semantic-first approach that uses LLM embeddings to uncover subtle anomalies in highly imbalanced datasets for risk and fraud detection.",
+            "tags": [
+                "LLM Embeddings",
+                "Anomaly Detection",
+                "Python"
+            ],
+            "link": "https://medium.com/@elangorj",
+            "linkLabel": "Read on Medium",
+            "context": "",
+            "image": ""
+        },
+        {
+            "title": "Image Super-Resolution",
+            "description": "Benchmarked transfer-learning super-resolution models (SRCNN and successors) to upscale remote sensing imagery across scenes, times of day and weather. Published with IEEE.",
+            "tags": [
+                "Python",
+                "PyTorch",
+                "OpenCV",
+                "AWS"
+            ],
+            "link": "https://github.com/Elangoraj/Image-Super-Resolution",
+            "linkLabel": "View on GitHub",
+            "context": "",
+            "image": "/images/web/SR1.jpg"
+        },
+        {
+            "title": "Product Recommendations",
+            "description": "Deep neural network predicting optimal product distribution for retail outlets for a global FMCG client, achieving 80% accuracy in placement.",
+            "tags": [
+                "Python",
+                "Spark SQL",
+                "AWS EMR",
+                "Redshift"
+            ],
+            "link": "",
+            "linkLabel": "",
+            "context": "Client project · confidential",
+            "image": "/images/web/recommendation-engine.jpg"
+        },
+        {
+            "title": "Satellite Scene Classification",
+            "description": "CNN-based scene classification identifying ten land-use categories from satellite imagery with high precision.",
+            "tags": [
+                "Python",
+                "Docker",
+                "TensorFlow",
+                "CNN"
+            ],
+            "link": "https://github.com/Elangoraj/LandCover-Image-Classification",
+            "linkLabel": "View on GitHub",
+            "context": "",
+            "image": "/images/web/sateliteImage.jpg"
+        }
+    ],
+    "about": [
+        "Beyond my core role, I founded and lead AI4U, an AI learning and enablement forum that drives safe, responsible adoption through learning sessions, AI consulting and citizen-developer support. I write about AI strategy and applications on Medium, speak at industry events, and mentor professionals building careers in data and AI.",
+        "I hold a Master’s degree in Data Science with Artificial Intelligence (Distinction) from the University of Exeter and have published peer-reviewed research with IEEE. My goal is simple: to make AI practical, trustworthy and genuinely transformational for organisations."
+    ],
+    "highlights": [
+        {
+            "value": "10 yrs",
+            "label": "Designing and scaling AI, ML & GenAI"
+        },
+        {
+            "value": "200+",
+            "label": "Colleagues reached through AI4U, 40%+ of the organisation"
+        },
+        {
+            "value": "73%",
+            "label": "Matching-accuracy uplift from a multilingual semantic model"
+        },
+        {
+            "value": "IEEE",
+            "label": "Peer-reviewed research on image super-resolution"
+        }
+    ],
+    "talks": [
+        {
+            "event": "The Experience Show UK 2026 (Customer Experience Live)",
+            "topic": "Panel: Revamping Experience Management, CRM in the Age of AI and Predictive Engagement"
+        },
+        {
+            "event": "ai:NOW 2025",
+            "topic": ""
+        },
+        {
+            "event": "IRM Europe 2025",
+            "topic": ""
+        },
+        {
+            "event": "CXO AI 2025",
+            "topic": ""
+        },
+        {
+            "event": "Toastmasters Conference 2026",
+            "topic": "AI Stream Curator"
+        }
+    ],
+    "awards": [
+        "Future Forward Award, Toastmasters International (City of London)",
+        "Pillar of Mindtree: top 5% of employees (2018)",
+        "A-Team Award: first AI-framework solution deployed at scale for a client (2018)",
+        "Outstanding Performer, LTIMindtree (2017, 2018, 2020)"
+    ],
+    "testimonials": [
+        {
+            "quote": "Elango is a workhorse in the projects I have been with him. Any task is doable for him... he can hold big chunks of information in his head and connect the dots very quickly.",
+            "name": "Eligijus Bujokas",
+            "title": "Machine Learning at Eneba · worked together on the same team"
+        },
+        {
+            "quote": "I was impressed by his ability to take up the challenges and motivation for continuous learning... Overall, he can be a valuable asset to most Data Science teams.",
+            "name": "Dr Saptarshi Das",
+            "title": "Senior Lecturer, University of Exeter · MSc dissertation supervisor"
+        }
+    ],
+    "speakingTopics": [
+        "Responsible AI",
+        "AI in Financial Services",
+        "Agentic AI Systems"
     ]
 }
